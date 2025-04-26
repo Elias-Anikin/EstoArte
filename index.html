@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EstoArte - Sofás sob medida</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #a8e6cf, #56ab91);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+      background: #f9f9f9;
+    }
+
+    .produto {
+      background: #ffffff;
+      border: 1px solid #dcdcdc;
+      border-radius: 10px;
+      width: 280px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .produto:hover {
+      transform: scale(1.02);
+    }
+
+    .produto img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .produto .info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .produto button {
+      background-color: #56ab91;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .produto button:hover {
+      background-color: #3d8c73;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #a8e6cf;
+      color: #2e2e2e;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>EstoArte</h1>
+    <p>Sofás com conforto e estilo, direto para sua casa</p>
+  </header>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="file:///C:/Users/ezequ/OneDrive/Área%20de%20Trabalho/site/imagens/3.png" alt="Sofá 1">
+      <div class="info">
+        <h2>Sofá Retrátil</h2>
+        <button onclick="window.location.href='https://wa.me/557388456422'">Chamar no WhatsApp</button>
+      </div>
+    </div>
+
+    <div class="produto">
+      <img src="file:///C:/Users/ezequ/OneDrive/Área%20de%20Trabalho/site/imagens/1.png" alt="Sofá 2">
+      <div class="info">
+        <h2>Sofá de Canto</h2>
+        <button onclick="window.location.href='https://wa.me/557388456422'">Chamar no WhatsApp</button>
+      </div>
+    </div>
+
+    <div class="produto">
+      <img src="file:///C:/Users/ezequ/OneDrive/Área%20de%20Trabalho/site/imagens/2.png" alt="Sofá 3">
+      <div class="info">
+        <h2>Sofá 2 Lugares</h2>
+        <button onclick="window.location.href='https://wa.me/557388456422'">Chamar no WhatsApp</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EstoArte. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
